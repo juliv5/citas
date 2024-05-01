@@ -1,7 +1,7 @@
 .tituloClass {
   font-family: "Nerko One", cursive;
   font-size: 3rem;
-  color: coral;
+  color: rgb(62, 120, 228);
 }
 .boton {
   display: flex;
