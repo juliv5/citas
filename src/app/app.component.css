@@ -1,0 +1,10 @@
+.tituloClass {
+  font-family: "Nerko One", cursive;
+  font-size: 3rem;
+  color: coral;
+}
+.boton {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}

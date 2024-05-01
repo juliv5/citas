@@ -1,0 +1,17 @@
+.card
+{
+    margin: 40px;
+}
+span{
+    font-weight: 600;
+}
+.cita-card {
+    font-weight: 600;
+
+  }
+  
+  /* Estilos para el cuadro de citas */
+.cita-card {
+    margin-bottom: 10px; /* Espacio entre cada cita */
+  }
+  

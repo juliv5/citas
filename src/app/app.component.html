@@ -1,0 +1,14 @@
+<div class="container pt-3">
+  <div class= "tituloClass text-center">CITAS MÉDICAS</div>
+  <div class="row mt-3">
+    <div class="col-lg-6">
+      <app-crear-citas (nuevaCita) = "agregarCita($event)"></app-crear-citas>
+    </div>
+    <div class="col-lg-6">
+      <app-list-citas [listadoCitas]="listCitas" (deleteCita) = "eliminarCitaListado($event)"></app-list-citas>
+    </div>
+  </div>
+</div>
+<div class="boton">
+  <a class="btn btn-primary" href="">Ir al Repositorio <i class="bi bi-github"></i></a>
+</div>
